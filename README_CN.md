@@ -62,7 +62,7 @@
 
 ```bash
 # 1. 克隆本仓库
-git clone https://github.com/YOUR_USERNAME/research-refactor-skill.git
+git clone [https://github.com/YOUR_USERNAME/research-refactor-skill.git](https://github.com/qijialiv-cell/research-refactor-skill.git)
 
 # 2. 复制 skill 目录到你的 Claude Code 个人 skills 文件夹
 mkdir -p ~/.claude/skills/research-refactor
