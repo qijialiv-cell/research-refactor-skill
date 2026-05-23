@@ -78,7 +78,7 @@ Currently this cutoff appears 3× across the script — a config change would re
 
 ## ⏳ Planned
 
-> Scheduled tasks in refactor order. See `skill.md Part IV` for sequence rules.
+> Scheduled tasks in refactor order. See `SKILL.md Part IV` for sequence rules.
 
 | ID | Task | Depends On | Risk | Priority |
 |---|---|---|---|---|
@@ -164,7 +164,7 @@ R-012 (CI) — depends on R-007 completing
 
 ## Tool Use Quick Reference
 
-> For full rules see `skill.md Part X`.
+> For full rules see `SKILL.md Part X`.
 
 **The one rule that matters most:**
 ```
@@ -189,4 +189,4 @@ gh pr checks                        # check PR CI
 ---
 
 *This file is updated before and after every work session.*
-*It is read by AI assistants as part of Rule Zero (see skill.md).*
+*It is read by AI assistants as part of Rule Zero (see SKILL.md).*

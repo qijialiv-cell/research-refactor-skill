@@ -62,7 +62,7 @@
 
 ```bash
 # 1. 克隆本仓库
-git clone [https://github.com/YOUR_USERNAME/research-refactor-skill.git](https://github.com/qijialiv-cell/research-refactor-skill.git)
+git clone https://github.com/qijialiv-cell/research-refactor-skill.git
 
 # 2. 复制 skill 目录到你的 Claude Code 个人 skills 文件夹
 mkdir -p ~/.claude/skills/research-refactor
@@ -79,8 +79,8 @@ cp research-refactor-skill/progress.md ~/.claude/skills/research-refactor/progre
 ```bash
 # 在你的项目根目录下执行
 mkdir -p .claude/skills/research-refactor
-cp /path/to/research-refactor-skill/SKILL.md .claude/skills/research-refactor/SKILL.md
-cp /path/to/research-refactor-skill/progress.md .claude/skills/research-refactor/progress.md
+cp ~/research-refactor-skill/SKILL.md .claude/skills/research-refactor/SKILL.md
+cp ~/research-refactor-skill/progress.md .claude/skills/research-refactor/progress.md
 
 # 提交到项目仓库
 git add .claude/skills/research-refactor/
@@ -94,7 +94,7 @@ git commit -m "chore: add research refactoring skill"
 ```bash
 # 1. 添加市场源（如果已发布）
 # 在 Claude Code 中执行：
-/plugin marketplace add YOUR_USERNAME/research-refactor-skill
+/plugin marketplace add qijialiv-cell/research-refactor-skill
 
 # 2. 安装插件
 /plugin install research-refactor@marketplace-name
@@ -115,7 +115,7 @@ git commit -m "chore: add research refactoring skill"
 
 ```bash
 # 在你的研究项目目录下启动 Claude Code
-cd /path/to/your/research/project
+cd /你的/研究/项目目录   # 替换为你的实际项目路径
 claude
 
 # 调用 skill
@@ -146,8 +146,8 @@ git checkout -b refactor/initial-setup
 
 # 3. 在项目中设置 skill 文件
 mkdir -p docs
-cp /path/to/SKILL.md docs/skill.md
-cp /path/to/progress.md docs/progress.md
+cp ~/research-refactor-skill/SKILL.md docs/skill.md
+cp ~/research-refactor-skill/progress.md docs/progress.md
 
 # 4. 根据你的项目定制
 # 编辑 docs/progress.md 以反映你的实际项目结构

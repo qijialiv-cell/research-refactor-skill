@@ -13,7 +13,7 @@ description: "Research code refactoring framework for R/Stata/Python projects. E
 
 > Before touching any file in this project, an AI assistant **must**:
 >
-> 1. Read `skill.md` (this file) — understand the rules
+> 1. Read `SKILL.md` (this file) — understand the rules
 > 2. Read `Part II — Architecture` of this file — understand the project world
 > 3. Read `dependency_graph` (Part III) — understand what depends on what
 > 4. Read `progress.md` — understand what is done, in-flight, and pending
@@ -114,7 +114,7 @@ project_root/
 ├── tests/                    ← Data assertions and regression tests.
 │
 ├── docs/
-│   ├── skill.md              ← This file. AI behavior spec + architecture.
+│   ├── SKILL.md              ← This file. AI behavior spec + architecture.
 │   ├── progress.md           ← Project progress tracker.
 │   └── README.md
 │
@@ -683,7 +683,7 @@ The commit is the checkpoint. Between commits, nothing is safe.
 
 ```bash
 # Always run from project root
-cd /path/to/project_root
+cd /your/project/root   # replace with your actual project path
 
 # Always echo what you are about to do before doing it
 echo "=== Running 03_analysis.do ==="
@@ -915,6 +915,6 @@ An AI assistant working on this codebase **must**:
 
 ---
 
-*This skill.md is both the AI behavior specification and the project architecture document.*
+*This SKILL.md is both the AI behavior specification and the project architecture document.*
 *It must be read before any AI-assisted work on this codebase.*
 *Last reviewed: YYYY-MM-DD*

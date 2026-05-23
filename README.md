@@ -76,8 +76,8 @@ If you want the skill scoped to a single project (and committed to version contr
 ```bash
 # From your project root
 mkdir -p .claude/skills/research-refactor
-cp /path/to/research-refactor-skill/SKILL.md .claude/skills/research-refactor/SKILL.md
-cp /path/to/research-refactor-skill/progress.md .claude/skills/research-refactor/progress.md
+cp ~/research-refactor-skill/SKILL.md .claude/skills/research-refactor/SKILL.md
+cp ~/research-refactor-skill/progress.md .claude/skills/research-refactor/progress.md
 
 # Commit the skill to your project repo
 git add .claude/skills/research-refactor/
@@ -91,7 +91,7 @@ For distribution and team sharing via a plugin marketplace:
 ```bash
 # 1. Add the marketplace (if published)
 # In Claude Code:
-/plugin marketplace add YOUR_USERNAME/research-refactor-skill
+/plugin marketplace add qijialiv-cell/research-refactor-skill
 
 # 2. Install the plugin
 /plugin install research-refactor@marketplace-name
@@ -112,7 +112,7 @@ For distribution and team sharing via a plugin marketplace:
 
 ```bash
 # Start Claude Code in your project directory
-cd /path/to/your/research/project
+cd /your/research/project   # replace with your actual project path
 claude
 
 # Invoke the skill
@@ -143,8 +143,8 @@ git checkout -b refactor/initial-setup
 
 # 3. Set up the skill files in your project
 mkdir -p docs
-cp /path/to/SKILL.md docs/skill.md
-cp /path/to/progress.md docs/progress.md
+cp ~/research-refactor-skill/SKILL.md docs/skill.md
+cp ~/research-refactor-skill/progress.md docs/progress.md
 
 # 4. Customize for your project
 # Edit docs/progress.md to reflect your actual project structure
