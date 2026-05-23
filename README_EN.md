@@ -59,7 +59,7 @@ This makes the skill available via a slash command (e.g., `/research-refactor`) 
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/YOUR_USERNAME/research-refactor-skill.git
+git clone https://github.com/qijialiv-cell/research-refactor-skill.git
 
 # 2. Copy the skill directory to your personal Claude Code skills folder
 mkdir -p ~/.claude/skills/research-refactor
